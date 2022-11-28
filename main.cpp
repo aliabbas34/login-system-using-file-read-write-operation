@@ -1,5 +1,3 @@
-//next task is to thoroughly go through the code and under stand the concepts used in it
-//every line should be explainable by you
 #include<iostream>
 #include<fstream>
 #include<string>
@@ -41,13 +39,13 @@ int main(){
         bool status=isLoggedIn();
         if(!status){
             cout<<"false attempt "<<endl;
-            system("PAUSE");//to stop the control from entering into main (study further it's rough knowledge)
-            return 0;//0 determines that the main will not be executed (study further it's rough knowledge)
+            system("PAUSE");
+            return 0;
         }
         else{
             cout<<"Succesfully logged in "<<endl;
-            system("PAUSE");//to stop the control from entering into main (study further it's rough knowledge)
-            return 1;//1 determines that the main will be executed (study further it's rough knowledge)
+            system("PAUSE");
+            return 1;
         }
     }
 }
